@@ -7,6 +7,7 @@
 }
 
 body{
+    background-color: #1b1b1b;
 }
 
 nav{
@@ -73,14 +74,85 @@ nav ul li a{
     display: none;
 }
 
-#foto{
-    width: 1000px;
-}
+
+
+
+
+
 
 .centraliza{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#title-colecao{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-item{
+    background-color: white;
+    border-radius: 20px;
+}
+
+#img-item{
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#text-item{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#desc-item{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.butons-itens{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#buton-compra{
+    background-color: #1b1b1b;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#buton-compra:hover{
+    opacity: 0.8;
+    color: #0082e6;
+}
+
+#buton-carro{
+    background-color: #1b1b1b;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: .5s;
+}
+
+#buton-carro:hover{
+    opacity: 0.8;
+    color: #0082e6;
 }
 
 @media (max-width: 952px){
