@@ -74,12 +74,6 @@ nav ul li a{
     display: none;
 }
 
-
-
-
-
-
-
 .centraliza{
     display: flex;
     align-items: center;
@@ -89,11 +83,11 @@ nav ul li a{
 #title-colecao{
     font-size: 40px;
     margin-top: 50px;
-    margin-bottom: 50px;
     color: white;
 }
 
 .itens{
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -105,7 +99,9 @@ nav ul li a{
 }
 
 #img-item{
-    width: 400px;
+    width: 360px;
+    height: 400px;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
