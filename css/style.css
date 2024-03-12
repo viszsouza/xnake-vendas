@@ -24,12 +24,13 @@ label.logo{
 }
 
 #logo-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     transition: .5s;
 }
 
 #logo-text:hover{
-    color: #1b9bff;
+    color: #5c5c5c;
 }
 
 #logo-text:active{
@@ -48,6 +49,7 @@ nav ul li{
 }
 
 nav ul li a{
+    font-family:Arial, Helvetica, sans-serif;
     color: white;
     font-size: 17px;
     padding: 7px 13px;
@@ -56,7 +58,7 @@ nav ul li a{
 }
 
 #nav-buton.active,a#nav-buton:hover{
-    background: #1b9bff;
+    background: #5c5c5c;
     transition: .5s;
 }
 
@@ -81,6 +83,7 @@ nav ul li a{
 }
 
 #title-colecao{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
     margin-top: 50px;
     color: white;
@@ -106,12 +109,15 @@ nav ul li a{
 }
 
 #text-item{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top: 20px;
     margin-left: 30px;
+
 }
 
 #desc-item{
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
     margin-left: 30px;
 }
@@ -125,6 +131,7 @@ nav ul li a{
 }
 
 #buton-compra{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #1b1b1b;
     color: white;
     padding: 15px 25px 15px 25px;
@@ -134,7 +141,7 @@ nav ul li a{
 
 #buton-compra:hover{
     opacity: 0.8;
-    color: #0082e6;
+    color: #00e673;
 }
 
 #buton-carro{
@@ -144,6 +151,12 @@ nav ul li a{
     border-radius: 10px;
     margin-left: 20px;
     transition: .5s;
+}
+#carrinho {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
 }
 
 #buton-carro:hover{
