@@ -62,6 +62,17 @@ nav ul li a{
     transition: .5s;
 }
 
+.Carrossel {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+
 .checkbtn{
     font-size: 30px;
     color: white;
